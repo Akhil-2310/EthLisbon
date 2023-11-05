@@ -1,7 +1,15 @@
-import React from "react";
+import Banner from "../components/Banner";
+import CreateProposals from "../components/CreateProposals";
+import Proposals from "../components/Proposals";
 
 const Home = () => {
-  return <div></div>;
+  return (
+    <>
+      <Banner />
+      <Proposals />
+      <CreateProposals />
+    </>
+  );
 };
 
 export default Home;
