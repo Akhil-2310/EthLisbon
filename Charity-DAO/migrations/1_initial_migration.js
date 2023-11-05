@@ -1,5 +1,5 @@
-const Migrations = artifacts.require("Migrations");
+const Migrations = artifacts.require("CharityDAO");
 
-module.exports = function (deployer) {
-  deployer.deploy(Migrations);
+module.exports = async function (deployer) {
+  deployer.deploy(CharityDAO);
 };
